@@ -1,6 +1,6 @@
 {
   "name": "rn-modal-alert",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Modal alert using Hooks",
   "main": "dist/index.js",
   "scripts": {
