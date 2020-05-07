@@ -9,8 +9,8 @@ import {
   StyleSheet,
 } from "react-native";
 
-const successIcon = require("../assets/images/icons/success.png");
-const errorIcon = require("../assets/images/icons/error.png");
+const successIcon = require("../assets/success.png");
+const errorIcon = require("../assets/error.png");
 
 const StatusAlert = forwardRef((props, ref) => {
   const [visible, setVisible] = useState(false);

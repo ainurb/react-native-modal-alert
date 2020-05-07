@@ -1,8 +1,8 @@
 import * as React from "react";
 import { useImperativeHandle, forwardRef, useState } from "react";
 import { View, Modal, Text, Image, TouchableOpacity, StyleSheet, } from "react-native";
-var successIcon = require("../assets/images/icons/success.png");
-var errorIcon = require("../assets/images/icons/error.png");
+var successIcon = require("../assets/success.png");
+var errorIcon = require("../assets/error.png");
 var StatusAlert = forwardRef(function (props, ref) {
     var _a = useState(false), visible = _a[0], setVisible = _a[1];
     var _b = useState(""), status = _b[0], setStatus = _b[1];
