@@ -1,8 +1,8 @@
 {
   "name": "rn-modal-alert",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Modal alert using Hooks",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf ./lib && tsc",
     "prepare": "yarn build"
