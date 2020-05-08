@@ -17,7 +17,7 @@ $ npm install rn-modal-alert --save
 ## Usage
 
 (1) Import component.   
-(2) Create ref for component.   
+(2) Create ref for component with `useRef` hook.   
 (3) Place component anywhere in your JSX.  
 (4) Call `getAlert(status, message)`. 
 
